@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/TTSV"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="#00BCD4"
+        android:gravity="center"
+        android:text="THÔNG TIN SINH VIÊN"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/hoTen"
+                android:layout_width="wrap_content"
+                android:layout_height="33dp"
+                android:text="Họ Tên SV: "
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/Ten"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="text"
+                android:text="" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/MSSV"
+                android:layout_width="86dp"
+                android:layout_height="33dp"
+                android:text="MSSV: "
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtMSSV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="text"
+                android:text="" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/Lop"
+                android:layout_width="86dp"
+                android:layout_height="33dp"
+                android:text="Lớp: "
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtLop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="text"
+                android:text="" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/sdt"
+                android:layout_width="86dp"
+                android:layout_height="33dp"
+                android:text="SĐT: "
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtsdt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="text"
+                android:text="" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/nam"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="#00BCD4"
+        android:gravity="center"
+        android:text="THÔNG TIN NĂM HỌC"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/Nam1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Năm 1" />
+
+        <RadioButton
+            android:id="@+id/Nam2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Năm 2" />
+
+        <RadioButton
+            android:id="@+id/Nam3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Năm 3" />
+
+        <RadioButton
+            android:id="@+id/Nam4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Năm 4" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/bomon"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="#00BCD4"
+        android:gravity="center"
+        android:text="THÔNG TIN BỘ MÔN"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/htn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="MT-HTN" />
+
+        <CheckBox
+            android:id="@+id/VT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Viễn Thông" />
+
+        <CheckBox
+            android:id="@+id/dt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Điện Tử" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/PTBT"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/goidien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Gọi điện"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/sms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="SMS"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/gui"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="GỬI"
+            android:layout_margin="5dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/chuphinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHỤP HÌNH"
+        android:layout_margin="5dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars" />
+
+</LinearLayout>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/TTSV"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="#00BCD4"
+        android:gravity="center"
+        android:text="THÔNG TIN SINH VIÊN"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/hoTen"
+            android:layout_width="111dp"
+            android:layout_height="33dp"
+            android:text="Họ Tên SV: "
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textHoTen"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:text=""
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/MSSV"
+            android:layout_width="111dp"
+            android:layout_height="33dp"
+            android:text="MSSV: "
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textMSSV"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:text=""
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/Lop"
+            android:layout_width="110dp"
+            android:layout_height="33dp"
+            android:text="Lớp: "
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textLop"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:text=""
+            android:textSize="16dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/sdt"
+            android:layout_width="110dp"
+            android:layout_height="33dp"
+            android:text="SĐT: "
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textsdt"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:text=""
+            android:textSize="16dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/nam"
+            android:layout_width="112dp"
+            android:layout_height="33dp"
+            android:text="Năm: "
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textnam"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:text=""
+            android:textSize="16dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/chuyennganh"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:text="Chuyên ngành: "
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textchuyennganh"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:text=""
+            android:textSize="16dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/PTBT"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:text="Phát triển bản thân: "
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textPTBT"
+            android:layout_width="match_parent"
+            android:layout_height="94dp"
+            android:text=""
+            android:textSize="16dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Hinhanh"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:text="Hình ảnh: "
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:srcCompat="@tools:sample/avatars" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quay lại"
+        android:textSize="18dp"
+        android:backgroundTint="#FF5722"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
