@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="#ECEFF1">
+
+    <!-- Hiển thị kết quả -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="36sp"
+        android:gravity="end"
+        android:padding="16dp"
+        android:background="#FFFFFF"
+        android:text="0" />
+
+    <!-- Hàng 1: DEL, = -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonDel"
+            android:text="DEL"
+            style="@style/FunctionButton" />
+
+        <Button
+            android:id="@+id/buttonEqual"
+            android:text="="
+            style="@style/FunctionButton" />
+    </LinearLayout>
+
+    <!-- Hàng 2: 1, 2, 3, / -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/button1"
+            android:text="1" style="@style/NumberButton"/>
+        <Button
+            android:id="@+id/button2"
+            android:text="2" style="@style/NumberButton"/>
+        <Button
+            android:id="@+id/button3"
+            android:text="3" style="@style/NumberButton"/>
+        <Button
+            android:id="@+id/buttonDiv"
+            android:text="/" style="@style/OperatorButton"/>
+    </LinearLayout>
+
+    <!-- Hàng 3: 4, 5, 6, - -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button4"
+            android:text="4" style="@style/NumberButton"/>
+        <Button
+            android:id="@+id/button5"
+            android:text="5" style="@style/NumberButton"/>
+        <Button
+            android:id="@+id/button6"
+            android:text="6" style="@style/NumberButton"/>
+        <Button
+            android:id="@+id/buttonSub"
+            android:text="-" style="@style/OperatorButton"/>
+    </LinearLayout>
+
+    <!-- Hàng 4: 7, 8, 9, X -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button7"
+            android:text="7" style="@style/NumberButton"/>
+        <Button
+            android:id="@+id/button8"
+            android:text="8" style="@style/NumberButton"/>
+        <Button
+            android:id="@+id/button9"
+            android:text="9" style="@style/NumberButton"/>
+        <Button
+            android:id="@+id/buttonMul"
+            android:text="X" style="@style/OperatorButton"/>
+    </LinearLayout>
+
+    <!-- Hàng 5: ., 0, %, + -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonDot"
+            android:text="." style="@style/NumberButton"/>
+        <Button
+            android:id="@+id/button0"
+            android:text="0" style="@style/NumberButton"/>
+        <Button
+            android:id="@+id/buttonRem"
+            android:text="%" style="@style/OperatorButton"/>
+        <Button
+            android:id="@+id/buttonAdd"
+            android:text="+" style="@style/OperatorButton"/>
+    </LinearLayout>
+
+</LinearLayout>
