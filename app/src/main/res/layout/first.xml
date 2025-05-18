@@ -199,7 +199,7 @@
     <EditText
         android:id="@+id/PTBT"
         android:layout_width="match_parent"
-        android:layout_height="96dp"
+        android:layout_height="71dp"
         android:ems="10"
         android:inputType="text"
         android:text="" />
@@ -242,10 +242,19 @@
         android:text="CHỤP HÌNH"
         android:layout_margin="5dp"/>
 
+    <Button
+        android:id="@+id/dssv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="XEM DANH SÁCH SINH VIÊN"
+        android:layout_margin="5dp"/>
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="57dp"
         tools:srcCompat="@tools:sample/avatars" />
+
+
 
 </LinearLayout>
